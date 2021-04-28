@@ -1538,9 +1538,9 @@ public class DownloadRequest: Request {
     /// - Note: For more information about `resumeData`, see [Apple's documentation](https://developer.apple.com/documentation/foundation/urlsessiondownloadtask/1411634-cancel).
     public var resumeData: Data? {
         #if !os(Linux)
-        mutableDownloadState.resumeData ?? error?.downloadResumeData
+        return mutableDownloadState.resumeData ?? error?.downloadResumeData
         #else
-        mutableDownloadState.resumeData
+        return mutableDownloadState.resumeData
         #endif
     }
 
