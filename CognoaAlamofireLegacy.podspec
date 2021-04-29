@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'CognoaAlamofireLegacy'
   s.version = '4.8.3'
   s.license = 'MIT'
-  s.summary = 'Elegant HTTP Networking in Swift - Reverted to versino 4.8.0 for Cognoa's legacy networking library.'
+  s.summary = 'Elegant HTTP Networking in Swift - Reverted to versino 4.8.0 for Cognoa legacy networking library.'
   s.homepage = 'https://github.com/Cognoa/Alamofire'
   s.authors = { 'Alamofire Software Foundation' => 'info@alamofire.org' }
   s.source = { :git => 'https://github.com/Cognoa/Alamofire.git', :tag => s.version }
